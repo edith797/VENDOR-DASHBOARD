@@ -1,0 +1,53 @@
+/* src/App.css */
+
+/* Main container to align the sidebar and content side by side */
+.app-container {
+    display: flex;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+    background-color: #1e293b; /* Background color for the right side */
+    color: white;
+    height: 100vh;
+    position: relative; /* Required for border positioning */
+  }
+  
+  /* Add a border line to separate sidebar and content */
+  .main-content::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #374151; /* Dark margin line between sidebar and content */
+  }
+  
+  /* Animated Welcome Message Styling */
+  .welcome-message {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  /* Welcome Text with Animation */
+  .welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out; /* Apply fade-in animation */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

@@ -1,0 +1,145 @@
+/* Container for the sales page */
+.sales-container {
+  color: white;
+  background-color: #1e293b; /* Dark background */
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 1200px;
+  margin: 20px auto; /* Center align */
+}
+
+/* Section title */
+.section-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center; /* Center align title */
+}
+
+/* Stats Section */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px; /* Add space between cards */
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background-color: #334155; /* Darker card background */
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 23%;
+  transition: transform 0.2s, background-color 0.2s; /* Smooth animation */
+}
+
+.stat-card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+  background-color: #3b4a5a; /* Darker on hover */
+}
+
+.stat-card p {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.stat-card h3 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Order List */
+.order-list {
+  margin-top: 20px;
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+/* Order List Header */
+.order-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+/* Filter button styling */
+.filter-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.filter-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Search Bar */
+.search-bar {
+  background-color: #1e293b;
+  border: 1px solid #e8e8e8;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #334155;
+  color: white;
+}
+
+td {
+  background-color: #1e293b;
+  border-bottom: 1px solid #334155;
+  color: white;
+}
+
+/* Alternate row color */
+tbody tr:nth-child(odd) {
+  background-color: #2b394d;
+}
+
+/* Edit Button */
+.edit-btn {
+  background-color: #3b82f6;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.edit-btn:hover {
+  background-color: #2563eb;
+}
+
+/* Icon size */
+.icon {
+  width: 20px;
+  height: 20px;
+}

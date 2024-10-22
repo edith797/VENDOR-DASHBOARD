@@ -1,0 +1,76 @@
+.settings-container {
+    padding: 20px;
+    color: #fff;
+    background-color: #0f172a;
+  }
+  
+  .settings-section {
+    background-color: #1b2845;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .section-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .section-header .icon {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .profile-section .profile-details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .profile-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .profile-info h4 {
+    margin: 0;
+  }
+  
+  .profile-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #999;
+  }
+  
+  .btn-edit {
+    padding: 8px 16px;
+    background-color: #4c6ef5;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .btn-edit:hover {
+    background-color: #5a7ef5;
+  }
+  
+  .notifications-options, .security-options {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  input[type="checkbox"] {
+    transform: scale(1.2);
+  }
+  
